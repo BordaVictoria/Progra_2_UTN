@@ -12,7 +12,7 @@ public class Videojuegos {
         Juego j2 = new JuegoAccion("c66d",1.0,consolas);
         Juego j3 = new JuegoAccion("ctd",20.0,consolas);
         
-        Consola c1 = new Consola("consola de vic",TipoConsolas.PC,50.0);
+        Consola c1 = new Consola("consola de vic",TipoConsolas.XBOX,50.0);
         
         System.out.println(c1.agregarJuego(j1) );
         c1.agregarJuego(j2);
