@@ -21,7 +21,7 @@ public class test {
        lista.add(d2);
        CentralComando central = new CentralComando(lista);
        
-       central.moverVehiculos(c1);
+       central.moverVehiculos(a1);
       
        central.reportarEstado(a1);
        central.reportarEstado(d1);
