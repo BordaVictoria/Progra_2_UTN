@@ -1,0 +1,34 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>430</x><y>440</y><w>210</w><h>110</h></coordinates><panel_attributes>&lt;&lt;interfas&gt;&gt;
+/Conectable/
+
+--
+encender(): Void.
+apagar(): Void conectarWifi(String): Void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>430</x><y>40</y><w>210</w><h>160</h></coordinates><panel_attributes>
+/Dispositivo/
+--
+#marca:String
+#encendido:boolean 
+--
++Dispositivo(String marca, boolean encendido)
+
++getMarca():String
++getEncendido():Boolean
++setMarca():Void
++setEncendido:void
++mostrarEstado():void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>130</x><y>270</y><w>250</w><h>80</h></coordinates><panel_attributes>SmartTV
+--
++SmartTV(String marca, boolean encendido)
++reproducirStreaming(String servicio):Void 
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>420</x><y>270</y><w>250</w><h>100</h></coordinates><panel_attributes>HeladeraInteligente
+--
+-temperatura :Double 
+--
++HeladeraInteligente(String marca, boolean encendido)
++verTemperatura():void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>730</x><y>270</y><w>250</w><h>100</h></coordinates><panel_attributes>LamparaInteligente
+--
+-color:String
+--
++LamparaInteligente(String marca, boolean encendido)
++cambiarColor(String Color):void
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>
