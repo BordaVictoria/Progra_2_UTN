@@ -1,0 +1,5 @@
+CLIENTE ;HABITAICION ; DIAS ; TOTAL A PAGAR 
+Juan Perez,101,3,902.25,
+Juan Perez,102,4,1203.0,
+Juan Perez,101,3,902.25,
+Juan Perez,102,4,1203.0,

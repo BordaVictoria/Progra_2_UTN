@@ -1,0 +1,6 @@
+Juan Perez,101,SIMPLE,3
+Maria Garcia,205,SUITE,7
+Carlos Lopez,302,SIMPLE,2
+Juan Perez,102,SUITE,4
+Ana Fernandez,103,SUITE,5
+Maria Garcia,201,SIMPLE,1
